@@ -1,0 +1,45 @@
+<!--comment-->
+<contexts>
+	<context id = "antbuild">
+		<description>SQL Ant Wizard</description>
+		<topic
+			href="html/Wizards/AntWizard.html"
+			label="SQL Ant Build Wizard">
+		</topic>
+	</context>
+	<context id="sqlantbuildwizard">
+		<description>Help for the SQL Ant  Wizard.</description>
+		<topic
+			href="html/Wizards/SQLAntBuildWizard.html"
+			label="SQL Ant Wizard">
+		</topic>
+	</context>
+	<context id="antparam">
+		<description>Help for the SQL Ant Parameter Page</description>
+		<topic
+			href="html/Wizards/AntParam.html"
+			label="SQL Ant Parameter Page">
+		</topic>
+	</context>
+	<context id="managefiles">
+		<description>Help for managing SQL Ant Build Files</description>
+		<topic
+			href="html/Wizards/ManageFiles.html"
+			label="Manage SQL Ant Build Files">
+		</topic>
+	</context>
+	<context id="managesqlfile">
+		<description>Help for managing SQL Ant Build Files</description>
+		<topic
+			href="html/Wizards/ManageSQLFile.html"
+			label="Manage SQL Ant Build Files">
+		</topic>
+	</context>
+	<context id="managejdbc">
+		<description>Help for managing SQL Ant Build Files</description>
+		<topic
+			href="html/Wizards/ManageJDBC.html"
+			label="Manage SQL Ant Build Files">
+		</topic>
+	</context>
+</contexts>

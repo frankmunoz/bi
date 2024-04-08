@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Teradata Plug-in for Eclipse" topic="html/toc.html">
+   <topic label="Connection Profile">
+      <anchor id="connectionToc"/>
+   </topic>   
+   <topic label="Execution Plans">
+      <anchor id="planToc"/>
+   </topic>   
+   <topic label="Teradata Compare View">
+      <anchor id="compareviewToc"/>
+   </topic>
+   <topic label="Copy and Compare Database Objects">
+      <anchor id="copycompareToc"/>
+   </topic>
+   <topic label="Dependency Browser">
+      <anchor id="dependenciesToc"/>
+   </topic>
+   <topic label="Dialogs">
+      <anchor id="dialogsToc"/>
+   </topic>
+   <topic label="SQL Developement">
+      <anchor id="sqlDevelopmentToc"/>
+   </topic>
+   <topic label="Result Handling">
+      <anchor id="resultCoreToc"/>
+   </topic>
+   <topic label="Result Set Viewer">
+      <anchor id="resultSetViewerToc"/>
+   </topic>
+   <topic label="History View">
+      <anchor id="historyViewToc"/>
+   </topic>
+   <topic label="Java Stored Procedures">
+      <anchor id="jxspeditorToc"/>
+   </topic>
+   <topic label="Java User Defined Functions">
+      <anchor id="judfeditorToc"/>
+   </topic>
+   <topic label="JavaBean Wrapper Wizard">
+      <anchor id="javabeanToc"/>
+   </topic>
+   <topic label="Domain Object Wizard">
+      <anchor id="domainObjectToc"/>
+   </topic>
+   <topic label="Teradata Project">
+      <anchor id="terdataProjectwizToc"/>
+   </topic>
+   <topic label="Spring DAO Wizard">
+      <anchor id="springdaowizToc"/>
+   </topic>
+   <topic label="Teradata View">
+      <anchor id="teradataviewToc"/>
+   </topic>
+   <topic label="Teradata XML Services">
+      <anchor id="xmlservicesToc"/>
+   </topic>
+   
+  
+</toc>

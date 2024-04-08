@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="cbg.article.treeviewer"
+   name="Treeviewer Plugin"
+   version="1.0.0"
+   provider-name="Chris Grindstaff"
+   class="cbg.article.treeviewer.ui.TreeViewerPlugin">
+
+<runtime>
+   <library name="treeviewer.jar"/>
+</runtime>
+<requires>
+   <import plugin="org.eclipse.core.runtime"/>
+   <import plugin="org.eclipse.core.resources"/>
+   <import plugin="org.eclipse.ui"/>
+</requires>
+
+
+<extension
+      id="cbg.article.treeviewer"
+      name="Moving Box"
+      point="org.eclipse.ui.views">
+   <view
+         name="Moving Box"
+         icon="icons/movingBox.gif"
+         class="cbg.article.treeviewer.ui.MovingBoxView"
+         id="cbg.article.treeviewer.ui.MovingBoxView">
+   </view>
+</extension>
+
+</plugin>

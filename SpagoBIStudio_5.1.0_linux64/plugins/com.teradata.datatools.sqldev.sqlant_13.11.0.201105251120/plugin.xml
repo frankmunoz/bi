@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+		point="org.eclipse.datatools.sqltools.sqleditor.actionExtensions">
+		<actionExtension class="/com.teradata.datatools.sqldev.sqlant.SQLAntSQLEditorActionExtension"
+			editorId="all"/>
+	</extension>
+	 <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.datatools.sqltools.sqleditor.category"
+            name="Create a SQL Ant Build..."
+            id="com.teradata.datatools.sqldev.sqlant.SQLAntAction"/>
+    </extension>
+	<extension point="org.eclipse.help.contexts">
+      <contexts file="wizardContextHelp.xml"/>
+    </extension>
+    
+    <extension
+         point="org.eclipse.help.toc">
+         	<toc
+            category="Teradata Plugin for Eclipse"
+            file="sqlAntBuildWizardHelpToc.xml"
+            primary="false"/>
+   </extension>
+</plugin>
